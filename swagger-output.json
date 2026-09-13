@@ -112,19 +112,19 @@
               "type": "object",
               "properties": {
                 "firstName": {
-                  "example": "any"
+                  "example": "first"
                 },
                 "lastName": {
-                  "example": "any"
+                  "example": "last"
                 },
                 "email": {
-                  "example": "any"
+                  "example": "any@email.com"
                 },
                 "favoriteColor": {
-                  "example": "any"
+                  "example": "color"
                 },
                 "birthday": {
-                  "example": "any"
+                  "example": "2000-01-01"
                 }
               }
             }
