@@ -3,7 +3,6 @@ const cors = require("cors");
 const mongodb = require("./data/database");
 const app = express();
 
-const uri = process.env.MONGODB_URI;
 const port = process.env.PORT || 3000;
 
 app.use(cors());
