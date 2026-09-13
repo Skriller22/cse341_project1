@@ -6,7 +6,7 @@ const doc = {
     description: 'CSE 341 Contacts project — CRUD API for a contacts collection.'
   },
   host: process.env.SWAGGER_HOST || 'localhost:3000',
-  schemes: ['http', 'https'],
+  schemes: process.env.SWAGGER_HOST ? ['https'] : ['http'],
   basePath: ''
 };
 
